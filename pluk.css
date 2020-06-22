@@ -5,12 +5,63 @@
 	top: -5px;
 	left: auto;
 	position: absolute;
-	width: auto;
-	height: auto;
 	background-repeat: no-repeat;
 	word-break: normal;
+	z-index: 0;
+	display: block;
+	width: 1500px;
+	/* [disabled]height: 1000px; */
 }
-
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    49% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    49% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-o-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    49% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.img {
+    -webkit-animation: blink 1s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 1s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 1s;
+    -o-animation-iteration-count: infinite;
+}
 
 /*pluk*/
 .plukouter{
@@ -27,10 +78,95 @@
 }
 img{
 	height: auto;
-	width: 100px;
-	display:none;}
+	width: 200px;
+	display: none;
+}
 .plukinner:hover img{
 	display: block}
+
+/*gif5*/
+.gif5outer{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 648px;
+	left: 146px;
+	display: block;
+}
+.gif5{
+	width: 100px;
+	height: auto;
+	display: block;
+    -webkit-animation: blink 1s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 1s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 1s;
+    -o-animation-iteration-count: infinite;
+}
+
+/*gif3*/
+.gif3outer{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 102px;
+	left: 386px;
+	display: block;
+}
+.gif3{
+	width: 100px;
+	height: auto;
+	display: block;
+    -webkit-animation: blink 1s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 1s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 1s;
+    -o-animation-iteration-count: infinite;
+}
+
+/*gif7*/
+.gif7outer{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 14px;
+	left: 828px;
+	display: block;
+}
+.gif7{
+	width: 100px;
+	height: auto;
+	display: block;
+    -webkit-animation: blink 1s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 1s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 1s;
+    -o-animation-iteration-count: infinite;
+}
+
+/*gif9*/
+.gif9outer{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 207px;
+	left: 1192px;
+	display: block;
+}
+.gif9{
+	width: 100px;
+	height: auto;
+	display: block;
+    -webkit-animation: blink 1s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 1s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 1s;
+    -o-animation-iteration-count: infinite;
+}
 
 /*confrontatie*/
 .confouter{
@@ -251,10 +387,10 @@ img{
 
 /*oerkreten*/
 .oerkouter{
-	height: 300px;
-	width: 300px;
+	height: 298px;
+	width: 224px;
 	position: absolute;
-	top: 325px;
+	top: 327px;
 	left: 528px;
 }
 .oerkinner{
@@ -272,11 +408,11 @@ img{
 
 /*ontmoe*/
 .ontmoeouter{
-	height: 300px;
-	width: 300px;
+	height: 203px;
+	width: 258px;
 	position: absolute;
-	top: 93px;
-	left: 787px;
+	top: 141px;
+	left: 830px;
 }
 .ontmoeinner{
 	height: 20px;
